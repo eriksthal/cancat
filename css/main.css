@@ -1,0 +1,284 @@
+
+
+/* ==========================================================================
+   Cancat custom styles
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Oswald:400,600,700');
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.upper-bar {
+    font-weight: 600;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    left: 0;
+    background-color: #F05423;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 100%;
+    padding-right: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+.navbar-logo {
+    position: relative;
+    top: -60px;
+}
+
+.navbar {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.navbar li {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar ul {
+    position: absolute;
+    margin: auto;
+    right: 5px;
+}
+
+.navbar .dropdown-menu li {
+    padding: 0;
+}
+
+.navbar-fixed-top {
+    top: 32px;
+    border-bottom: none;
+    position: absolute;
+}
+
+.navbar-inverse {
+    background-image: none;
+    background-color: #F26728;
+    font-weight: 600;
+    color: #fff;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+        height: 250px !important;
+        position: relative;
+        top: 50px;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+        color: #fff;
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+        color: #a53f15;
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+        background-color: #fff;
+    }
+}
+
+
+.jumbotron {
+    padding: 0;
+    padding-top: 100px;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.active>a {
+    background-image: none;
+    box-shadow: none;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: transparent;
+    color: #a53f15;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #a53f15;
+}
+
+.header-image {
+    background-image: url('../img/encabezado.jpg');
+    height: 573px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.header-text {
+    position: absolute;
+    bottom: 10px;
+}
+
+.row {
+    margin-bottom: 70px;
+}
+
+.tile {
+    text-align: center;
+}
+
+.plan-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.plan-price {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.plan-subtext {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.tile a.cta {
+    background-color:#f05423;
+    padding:5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top:3px;
+}
+
+.tile a.cta:hover {
+    text-decoration: none;
+    padding: 9px;
+}
+
+.tile-subtitle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    width: 200px;
+    margin: 10px auto;
+    text-align: left;
+}
+
+.footer {
+    background-color: #58595b;
+    position: relative;
+    top: 20px;
+    padding: 30px;
+    color: #fff;
+}
+
+.footer a,
+.footer a:hover,
+.footer a:active,
+.footer a:visited {
+    color: #fff;
+}
+
+.footer .title {
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.footer .phone{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: left;
+
+}
+
+.footer .info {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
